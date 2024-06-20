@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuerdos</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .header {
+            background-color: #f8f9fa;
+            padding: 50px 0;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 3rem;
+            color: #343a40;
+        }
+        .gallery {
+            padding: 50px 0;
+        }
+        .gallery .card {
+            border: none;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .gallery .card:hover {
+            transform: scale(1.05);
+        }
+        .gallery img {
+            object-fit: cover;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <h1>Recuerdos</h1>
+            <p class="lead">Algunos de los mejores animes vistos durane mi infancia.</p>
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://i.ytimg.com/vi/sFOoURBd_Xg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBtRrZezkGf9s1Y99MDlLLUwfB2hw" class="card-img-top" alt="Recuerdo 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Doraemon</h5>
+                            <p class="card-text">Doraemon es un gato robot del futuro que viaja atrás en el tiempo para ayudar a Nobita Nobi, un niño perezoso y desdichado..</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://static.wikia.nocookie.net/cowboybebop/images/b/b8/Spike_CBJ9412.jpg/revision/latest/smart/width/386/height/259?cb=20210924205007&path-prefix=es" class="card-img-top" alt="Recuerdo 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Spike</h5>
+                            <p class="card-text">La trama sigue a un grupo de cazarrecompensas en el año 2071 que viajan por el espacio a bordo de la nave Bebop. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://static.wikia.nocookie.net/inuyasha/images/0/0e/Inuyasha_-_Opening_5_%285%29.png/revision/latest?cb=20200920012550&path-prefix=es" class="card-img-top" alt="Recuerdo 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Inuyasha</h5>
+                            <p class="card-text"> La historia sigue a Kagome Higurashi, una chica que viaja al Japón feudal a través de un pozo sagrado, donde conoce a Inuyasha, un híbrido humano-demonio.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
